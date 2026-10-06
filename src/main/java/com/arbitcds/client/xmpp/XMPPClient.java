@@ -1,21 +1,4 @@
-/**
- * Nombre del Archivo: XMPPClient.java
- * Descripción: Este archivo contiene la implementación de la clase XMPPClient, que maneja la funcionalidad de un cliente XMPP.
- * Autor: Oscar Estrada
- * Fecha: 22/08/2023
- * Versión: 1.0
- *
- * Dependencias Externas:
- * - Smack API: Biblioteca para la comunicación XMPP. Versión 4.2.0.
- * - JXMPP: Biblioteca para la manipulación de JID (Jabber ID).
- *
- * Notas:
- * - Esta clase implementa varias funcionalidades de un cliente XMPP, como la conexión al servidor, gestión de contactos,
- *   envío de mensajes, administración de estados de presencia y funciones de chat grupal.
- * - Asegúrate de completar la versión de las dependencias externas con las versiones reales utilizadas en tu proyecto.
- */
-
-package org.example;
+package com.arbitcds.client.xmpp;
 
 import org.jivesoftware.smack.*;
 import org.jivesoftware.smack.chat2.Chat;

@@ -1,4 +1,4 @@
-package org.example;
+package com.arbitcds.client.xmpp;
 
 import org.jivesoftware.smack.packet.Presence;
 import org.jxmpp.stringprep.XmppStringprepException;
@@ -350,6 +350,6 @@ public class XMPPMain {
                 default:
                     System.out.println("Invalid option.");
             }
-        } while (choice != 3); // continua a mostrare il menù iniziale finchè l'utente non sceglie di chiudere l'applicazione
+        } while (choice != 3); // A ogni iterazione viene creato un nuovo client e viene aperta una nuova connessione finchè l'utente non sceglie di chiudere l'applicazione
     } // fine main
 }
